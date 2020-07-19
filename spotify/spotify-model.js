@@ -7,5 +7,5 @@ function find() {
 }
 
 function findById(id) {
-  return db("songs").where({ id }).first();
+  return db("api").where({ id }).first();
 }

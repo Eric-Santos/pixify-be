@@ -1,6 +1,7 @@
 const express = require("express");
 
 const PexelsRouter = require("./pexels/pexels-router.js");
+// const SpotifyRouter = require("./spotify/spotify-router.js");
 
 const server = express();
 
@@ -11,5 +12,6 @@ server.get("/", (req, res) => {
 });
 
 server.use("/pexels", PexelsRouter);
+// server.use("/spotify", SpotifyRouter);
 
 module.exports = server;

@@ -4,6 +4,11 @@ const Pexels = require("./pexels-model.js");
 
 const router = express.Router();
 
+// import dotenv from "dotenv";
+// dotenv.config();
+
+const Authorization = process.env.REACT_APP_PEXELS_AUTHORIZATION;
+
 router.get("/", (req, res) => {
   Pexels.find()
     .then((photo) => {
