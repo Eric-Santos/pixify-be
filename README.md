@@ -1,1 +1,1 @@
-Pixify was created to view images from Pexels.com API on the Back End, and display in background while music plays. Project not completed since the API was used from the Front End version of this program.
+Pixify was created to view images from Pexels.com API on the Back End, and display in background while music plays. Project not completed since the API was used from the Front End version of this program. This project uses Node.js, Express.js, Knex, and SQlite. At this point there is no roadmap for future development.
