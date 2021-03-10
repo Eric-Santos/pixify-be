@@ -1,1 +1,1 @@
-# pixify-be
+Pixify was created to view images from Pexels.com API on the Back End, and display in background while music plays. Project not completed since the API was used from the Front End version of this program.
